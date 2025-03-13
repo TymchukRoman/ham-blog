@@ -10,7 +10,7 @@ function Header() {
     return <Box className="flex justify-between items-center p-4 position-fixed top-0">
         <Box className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
             <img src={icon} width={40} />
-            <Typography variant="h6">Omar the Hamster</Typography>
+            <Typography variant="h6">Омар Хом'як</Typography>
         </Box>
         <IconButton onClick={toggleTheme} color="inherit" aria-label="toggle theme">
             {mode === "dark" ? <DarkModeIcon /> : <LightModeIcon />}
